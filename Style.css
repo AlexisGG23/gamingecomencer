@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-right: 20px;
+}
+
+.logo img {
+  height: 60px;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-top: -20px;
+}
+
+ul {
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+}
+
+.card1 {
+  width: 100%;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 10px;
+  display: inline-block;
+}
+
+.card1 img {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 10px;
+}
+
+.card-content h3 {
+  margin-top: 0;
+}
+
+.card-content p {
+  margin-bottom: 10px;
+}
+
+.card-content a {
+  display: inline-block;
+  background-color: #333;
+  color: white;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.card1:hover {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 10px;
+  transform: scale(1.2);
+  transition-duration: 3s;
+}
+
+.tamaño {}
+
+.hover:hover {
+  color: white;
+  background-color: black;
+  transform: scale(1.2);
+}
+
+.container {
+  transition-duration: 0.3s;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  font-size: 50px;
+}
+
+.element {
+  visibility: hidden; 
+}
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo img {
+  height: 40px;
+}
+
+.footer-links ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.footer-links ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-social ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.footer-social ul li a img {
+  height: 25px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 10px;
+}
